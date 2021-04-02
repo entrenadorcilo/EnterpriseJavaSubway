@@ -1,7 +1,11 @@
 package domain;
 
+import java.util.List;
+
 public class Train {
-    String id;
+
+    private String id;
+    List<Wagon> train;
 
 
 }

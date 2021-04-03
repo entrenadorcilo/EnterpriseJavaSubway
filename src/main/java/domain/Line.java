@@ -8,4 +8,5 @@ public class Line {
     LinkedList<Station> stations;
     List<Train> trains;
 
+
 }

@@ -1,5 +1,9 @@
 package repository;
 
-public interface TrainRepository {
+import domain.Wagon;
 
+import java.util.List;
+
+public interface TrainRepository {
+    List<Wagon> train();
 }

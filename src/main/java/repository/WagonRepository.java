@@ -1,5 +1,7 @@
 package repository;
 
-public interface WagonRepository {
+import domain.Wagon;
 
+public interface WagonRepository {
+    void addWagon(Wagon wagon);
 }

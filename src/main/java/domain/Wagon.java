@@ -7,15 +7,13 @@ import lombok.Setter;
 @Setter
 public class Wagon {
     private int currCapacity;
-    private int capacity;
 
     public Wagon(int currCapacity){
         this.currCapacity = currCapacity;
-        this.capacity = 100;
     }
 
     public Wagon(){
-        this.capacity = 100;
+        this.currCapacity = 0;
     }
 
 

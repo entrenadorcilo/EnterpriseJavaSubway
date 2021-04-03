@@ -11,11 +11,11 @@ public class Wagon {
 
     public Wagon(int currCapacity){
         this.currCapacity = currCapacity;
-        this.capacity = 150;
+        this.capacity = 100;
     }
 
     public Wagon(){
-        this.capacity = 150;
+        this.capacity = 100;
     }
 
 

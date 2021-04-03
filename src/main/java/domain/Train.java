@@ -9,6 +9,7 @@ public class Train {
 
     public Train(List<Wagon> train){
         this.train = train;
+        this.isInDepot = true;
     }
 
 

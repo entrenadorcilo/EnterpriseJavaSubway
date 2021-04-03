@@ -6,7 +6,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Wagon {
-    private String id;
     private int currCapacity;
     private int capacity;
 

@@ -6,11 +6,10 @@ import java.util.List;
 public class Subway {
 
     List<Train> trains;
-    Line line;
+    List<Line> line;
 
     public Subway(){
-        trains = new ArrayList<Train>();
-        line = new Line();
+        line = new ArrayList<Line>();
     }
 
 }

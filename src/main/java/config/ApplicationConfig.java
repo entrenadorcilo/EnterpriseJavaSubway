@@ -7,6 +7,10 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @PropertySource("classpath:application.properties")
 public class ApplicationConfig {
+    @Value("${minCurrCapacity}")
+    private Integer minCurrCapacity;
 
+    @Value("${maxCurrCapacity}")
+    private Integer maxCurrCapacity;
 
 }
